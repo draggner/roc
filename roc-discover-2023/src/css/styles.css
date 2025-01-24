@@ -5,6 +5,11 @@ body {
   background-size: cover;
 }
 
+body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
 #container {
   border: 1px solid red;
   height: 712px;
@@ -18,4 +23,9 @@ body {
 
 #profile img {
   width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 23px;
 }
