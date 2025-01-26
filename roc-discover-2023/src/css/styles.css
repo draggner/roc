@@ -20,11 +20,12 @@ body * {
   border: 1px solid red;
   height: 712px;
   width: 360px;
-  margin: auto;
+  margin: 56px auto 0px;
 }
 
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 #profile img {
@@ -34,4 +35,5 @@ body * {
 #profile p {
   font-weight: 500;
   line-height: 23px;
+  margin-top: 8px;
 }
