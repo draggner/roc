@@ -17,7 +17,7 @@ body * {
 }
 
 #container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 712px;
   width: 360px;
   margin: 56px auto 0px;
@@ -36,4 +36,15 @@ body * {
   font-weight: 500;
   line-height: 23px;
   margin-top: 8px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+ul li {
+  /* border: 1px solid red; */
 }
